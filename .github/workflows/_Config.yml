@@ -1,0 +1,6 @@
+git remote add upstream https://github.com/gdg-x/hoverboard.git
+git fetch upstream
+git merge upstream/main
+# resolve the merge conflicts in your editor
+git add . -u
+git commit -m 'Updated to the latest version'
